@@ -25,8 +25,6 @@ function slowCalculator(number1, number2, operation){
     return myPromise;
 }
 
-slowCalculator(10, 10, "multiplication")
-.then(solution => console.log(solution))
-.catch(error => console.error(error));
+console.log(slowCalculator(10, 10, "multiplication"));
 
 
